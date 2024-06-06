@@ -37,17 +37,18 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin: 120px auto;
   width: 100%;
+  margin: 120px auto 60px auto;
 }
 
-/* .main-row .col-50 {
-  width: calc(100% / 5 * 2);
+.main-row-mid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px auto 60px auto;
+  padding: 50px 0px 40px 0px;
 }
-
-.main-row .col-25 {
-  width: calc(100% / 5);
-} */
 
 .main-row .col-50,
 .col-25 {
@@ -55,6 +56,11 @@ body {
   width: 85%;
   margin: 10px 0;
   border-radius: 20px;
+}
+
+.main-col-50 {
+  width: 85%;
+  margin: 10px 0;
 }
 
 .card-img img {
@@ -66,12 +72,32 @@ body {
   justify-content: center;
 }
 
+h2 {
+  font-size: 27px;
+}
+
 h4 {
   font-size: x-large;
 }
 
+h5 {
+  font-size: large;
+}
+
 .card-title i {
   font-size: 80px;
+}
+
+.strategic-planning img {
+  width: 250px;
+}
+
+.app-dev img {
+  width: 250px;
+}
+
+.app-dev {
+  border-radius: 45px;
 }
 
 /************ UTILITY CLASSES ************/
@@ -96,6 +122,23 @@ h4 {
   padding: 15px;
 }
 
+.padding-20px {
+  padding: 20px;
+}
+
+.padding-t60-b40 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.margin-t25px {
+  margin-top: 25px;
+}
+
+.margin-b10px {
+  margin-bottom: 10px;
+}
+
 .padding-top-30px {
   padding-top: 30px;
 }
@@ -111,4 +154,23 @@ h4 {
 
 .line-h-1_5rem {
   line-height: 1.5rem;
+}
+
+.purple-bg {
+  background-color: rgba(151, 146, 228, 255);
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.white {
+  color: white;
+}
+
+.purple-down-arrow {
+  padding: 15px 19px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgba(151, 146, 228, 255);
 }
