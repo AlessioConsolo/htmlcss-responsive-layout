@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************* SECTIONS *************/
+
+header {
+  background-color: rgba(0, 132, 253, 255);
+  color: white;
+  padding: 17px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/************** LAYOUT **************/
+
+.header-container,
+.main-container {
+  max-width: 480px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 120px auto;
+  width: 100%;
+}
+
+/* .main-row .col-50 {
+  width: calc(100% / 5 * 2);
+}
+
+.main-row .col-25 {
+  width: calc(100% / 5);
+} */
+
+.main-row .col-50,
+.col-25 {
+  background-color: rgba(181, 221, 255, 255);
+  width: 85%;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+.card-img img {
+  width: 240px;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  font-size: x-large;
+}
+
+.card-title i {
+  font-size: 80px;
+}
+
+/************ UTILITY CLASSES ************/
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.light-blue {
+  color: rgba(0, 132, 253, 255);
+}
+
+.dark-grey {
+  color: rgba(90, 110, 127, 255);
+}
+
+.padding-15px {
+  padding: 15px;
+}
+
+.padding-top-30px {
+  padding-top: 30px;
+}
+
+.card-b {
+  color: white;
+  padding: 10px 60px;
+  border-radius: 25px;
+  background-color: rgba(0, 132, 253, 255);
+  font-size: 15px;
+  border: none;
+}
+
+.line-h-1_5rem {
+  line-height: 1.5rem;
+}
