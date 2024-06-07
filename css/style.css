@@ -46,7 +46,6 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   width: 100%;
-  margin: 0px auto 60px auto;
   padding: 50px 0px 40px 0px;
 }
 
@@ -59,6 +58,11 @@ body {
 }
 
 .main-col-50 {
+  width: 85%;
+  margin: 10px 0;
+}
+
+.main-col-100 {
   width: 85%;
   margin: 10px 0;
 }
@@ -131,12 +135,21 @@ h5 {
   padding-bottom: 40px;
 }
 
+.padding-v15px {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .margin-t25px {
   margin-top: 25px;
 }
 
 .margin-b10px {
   margin-bottom: 10px;
+}
+
+.margin-b20px {
+  margin-bottom: 20px;
 }
 
 .padding-top-30px {
@@ -168,9 +181,24 @@ h5 {
   color: white;
 }
 
+.purple {
+  color: rgba(151, 146, 228, 255);
+}
+
 .purple-down-arrow {
   padding: 15px 19px;
   border-radius: 50%;
   display: inline-block;
   background-color: rgba(151, 146, 228, 255);
+}
+
+.round-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.border-radius-45px {
+  border-radius: 45px;
 }
