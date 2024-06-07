@@ -67,6 +67,21 @@ body {
   margin: 10px 0;
 }
 
+.main-col-33 {
+  width: 85%;
+  margin: 10px 0;
+}
+
+.main-col-30 {
+  width: 85%;
+  margin: 10px 0;
+}
+
+.main-col-70 {
+  width: 85%;
+  margin: 10px 0;
+}
+
 .card-img img {
   width: 240px;
 }
@@ -77,7 +92,7 @@ body {
 }
 
 h2 {
-  font-size: 27px;
+  font-size: 33px;
 }
 
 h4 {
@@ -104,6 +119,14 @@ h5 {
   border-radius: 45px;
 }
 
+/* .main-col-30 .content i {
+  font-size: 60px;
+  display: flex;
+  position: absolute;
+  top: 9915px;
+  right: 153px;
+} */
+
 /************ UTILITY CLASSES ************/
 
 .align-center {
@@ -122,6 +145,10 @@ h5 {
   color: rgba(90, 110, 127, 255);
 }
 
+.padding-r10px {
+  padding-right: 10px;
+}
+
 .padding-15px {
   padding: 15px;
 }
@@ -138,6 +165,11 @@ h5 {
 .padding-v15px {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.margin-v15px {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .margin-t25px {
@@ -160,13 +192,28 @@ h5 {
   color: white;
   padding: 10px 60px;
   border-radius: 25px;
-  background-color: rgba(0, 132, 253, 255);
   font-size: 15px;
   border: none;
 }
 
-.line-h-1_5rem {
-  line-height: 1.5rem;
+.card-b-small {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  border: none;
+}
+
+.line-h-2rem {
+  line-height: 2rem;
+}
+
+.font-size-45px {
+  font-size: 45px;
+}
+
+.lightblue-bg {
+  background-color: rgba(0, 132, 253, 255);
 }
 
 .purple-bg {
@@ -201,4 +248,8 @@ h5 {
 
 .border-radius-45px {
   border-radius: 45px;
+}
+
+.border-radius-20px {
+  border-radius: 20px;
 }
