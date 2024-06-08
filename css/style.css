@@ -495,4 +495,21 @@ button {
   button {
     display: inline-flex;
   }
+
+  .col-50 {
+    display: flex;
+  }
+
+  .col-50 .content-text .card-title {
+    text-align: unset;
+    padding-left: 30px;
+  }
+
+  .col-50 .content-img {
+    padding-top: 110px;
+  }
+
+  .main-col-33 {
+    width: calc(90% / 3);
+  }
 }
