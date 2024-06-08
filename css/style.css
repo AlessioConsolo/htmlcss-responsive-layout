@@ -90,6 +90,11 @@ footer {
   margin: 10px 0;
 }
 
+.main-col-99 {
+  width: 90%;
+  margin: 10px 0;
+}
+
 .main-col-30 {
   width: 90%;
   margin: 10px 0;
@@ -140,6 +145,20 @@ h5 {
 
 .app-dev {
   border-radius: 45px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+ul li {
+  cursor: pointer;
+  padding: 0 10px;
 }
 
 /* .main-col-30 .content i {
@@ -246,6 +265,15 @@ h5 {
   border: none;
 }
 
+.nav-b {
+  color: black;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 15px;
+  border: none;
+}
+
 .line-h-2rem {
   line-height: 2rem;
 }
@@ -335,6 +363,11 @@ h5 {
   justify-content: center;
 }
 
+.menu .content ul,
+button {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .main-row .col-50 {
     flex-grow: 2;
@@ -355,7 +388,7 @@ h5 {
   .header-container,
   .main-container,
   .footer-container {
-    max-width: 1024px;
+    max-width: 1023px;
   }
 
   .card-img {
@@ -385,5 +418,81 @@ h5 {
   .main-col-100 {
     display: flex;
     align-items: center;
+  }
+
+  .main-col-33 {
+    width: 45%;
+    margin: 10px 10px;
+  }
+
+  .main-row-mid {
+    justify-content: center;
+    flex-direction: unset;
+  }
+
+  .main-col-70 {
+    width: 65%;
+    margin: 10px 10px;
+    padding-right: 40px;
+  }
+
+  .main-col-30 {
+    width: 25%;
+    margin: 10px 10px;
+  }
+
+  .card-b-small {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-col-50 {
+    width: 40%;
+    margin: 10px 10px;
+  }
+
+  .strategic-planning img {
+    width: 350px;
+  }
+
+  .app-dev img {
+    width: 250px;
+  }
+
+  .strategic-planning h6 {
+    font-size: 30px;
+  }
+
+  .main-container {
+    width: 1500px;
+    margin: 0 auto;
+  }
+
+  .header-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-container {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .main-col-100 {
+    justify-content: center;
+  }
+
+  .header-col .menu .content i {
+    display: none;
+  }
+
+  .menu .content ul,
+  button {
+    display: inline-flex;
   }
 }
