@@ -373,4 +373,17 @@ h5 {
   .strategic-planning h6 {
     font-size: 55px;
   }
+
+  .main-col-100 .content-img {
+    width: 35%;
+  }
+
+  .main-col-100 .content-text {
+    width: 65%;
+  }
+
+  .main-col-100 {
+    display: flex;
+    align-items: center;
+  }
 }
